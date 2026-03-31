@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "simple_mob_radar",
+  "version": "${version}",
+  "name": "Simple Mob Radar",
+  "description": "A Fabric 1.21.10 mob radar item that tracks nearby mobs with HUD info.",
+  "authors": ["Codex"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.simplemobradar.SimpleMobRadarMod"
+    ],
+    "client": [
+      "com.simplemobradar.SimpleMobRadarClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
